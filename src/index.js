@@ -12,9 +12,6 @@ gsap.registerPlugin(MorphSVGPlugin);
 gsap.registerPlugin(Draggable);
 gsap.registerPlugin(CustomEase);
 
-// gsap.ticker.fps(30)
-// gsap.ticker.deltaRatio(30)
-
 const select = s => document.querySelector(s);
 const selectAll = s => document.querySelectorAll(s);
 
@@ -911,70 +908,6 @@ const setupCanvas = () => {
 
 setupCanvas();
 
-
-
-
-
-
-
-
-
-
-// const pathData = "M1045.55,239.99l-37.94-0.01l-75.89-0.03l-151.79,0.04l-151.78,0.2l-37.94,0.05c-6.32-0.02-12.68,0.09-18.95-0.01l-9.43-0.09l-9.41-0.36c-12.53-0.62-25.04-1.66-37.35-3.73c-5.796-0.941-11.518-2.194-17.13-3.737h-15.828c1.317,0.645,2.635,44.287,3.978,44.818c0.76,0.31,580.91-1.12,580.91-1.12v-36.02H1045.55z";
-// const points = pathDataToPolys(pathData, {tolerance: 1, decimals: 1});
-// console.log(points);
-// select('#pathData').textContent = points;
-
-
-
-
-
-
-// const vertices1 = Svg.pathToVertices(path1);
-// const testFlask= Bodies.fromVertices(percentX(31.01), percentY(90.37), vertices1, {}, true);
-// World.add(world, testFlask)
-
-	
-// const flaskPath = select('#flask-path-test');
-// const bubbleTest = selectAll('.bubble__test');
-
-// const AnimateBubbles = () => {
-// 	const angle = Math.floor(Math.random() * 360);
-// 	const radians = angle * (Math.PI / 180);
-// 	const speed = gsap.utils.random(2, 5, 1, true);
-// 	const velX = Math.cos(radians) * speed;
-// 	const velY = Math.sin(radians) * speed;
-// 	gsap.to(bubbleTest, {
-// 		x: velX,
-// 		y: velY,
-// 		duration: speed,
-// 		ease: 'none',
-// 		onUpdate: checkHit
-// 	})
-// }
-
-
-// bubbleTest.forEach(bubble => {
-// 	gsap.to(bubble, {
-// 		y: -200,
-// 		duration: 6,
-// 		ease: 'none',
-// 		onUpdate: checkHit
-// 	})
-// })
-
-
-// function checkHit() {
-// 	if (Draggable.hitTest(flaskPath, bubbleTest)) {
-// 		gsap.to(bubbleTest, {
-// 			// attr: {
-// 			// 	r: 10
-// 			// }
-// 			y: 50,
-// 			duration: 6,
-// 		})
-// 	}
-// }
 
 
 
