@@ -1,0 +1,22 @@
+{
+  "name": "FutureLabo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gsap": "^3.6.1",
+    "matter-js": "^0.17.1",
+    "poly-decomp": "^0.3.0",
+    "svg-path-to-polygons": "^0.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Chiaki Sakai <clear.island23@gmail.com> (https://github.com/Chiaki203)",
+  "license": "ISC"
+}
